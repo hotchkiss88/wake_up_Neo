@@ -1,0 +1,328 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Courier Prime', monospace;
+    color: rgba(0, 255, 0, 0.397);
+}
+
+h1::after {
+    content: '';
+    animation: wake-up 30s step-end infinite;
+}
+
+@keyframes wake-up {
+    0% {
+        content: '|';
+    }
+    1% {
+        content: '';
+    }
+    2% {
+        content: '|';
+    }
+    3% {
+        content: '';
+    }
+    4% {
+        content: '|';
+    }
+    5% {
+        content: '';
+    }
+    6% {
+        content: 'W';
+    }
+    7% {
+        content: 'W|';
+    }
+    8% {
+        content: 'Wa|';
+    }
+    9% {
+        content: 'Wak|';
+    }
+    10% {
+        content: 'Wake|';
+    }
+    11% {
+        content: 'Wake |';
+    }
+    12% {
+        content: 'Wake u|';
+    }
+    13% {
+        content: 'Wake up|';
+    }
+    14% {
+        content: 'Wake up |';
+    }
+    15% {
+        content: 'Wake up N|';
+    }
+    16% {
+        content: 'Wake up Ne|';
+    }
+    17% {
+        content: 'Wake up Neo|';
+    }
+    18% {
+        content: 'Wake up Neo.';
+    }
+    19% {
+        content: 'Wake up Neo..|';
+    }
+    20% {
+        content: 'Wake up Neo...|';
+    }
+    21% {
+        content: 'Wake up Neo...';
+    }
+    22% {
+        content: 'Wake up Neo...|';
+    }
+    23% {
+        content: 'Wake up Neo...';
+    }
+    24% {
+        content: 'Wake up Neo...|';
+    }
+    25% {
+        content: '';
+    }
+    26% {
+        content: '|';
+    }
+    27% {
+        content: '';
+    }
+    28% {
+        content: '|';
+    }
+    29% {
+        content: '';
+    }
+    30% {
+        content: '|';
+    }
+    31% {
+        content: 'T|.';
+    }
+    32% {
+        content: 'Th|';
+    }
+    33% {
+        content: 'The|';
+    }
+    34% {
+        content: 'The|';
+    }
+    35% {
+        content: 'The |';
+    }
+    36% {
+        content: 'The M|';
+    }
+    37% {
+        content: 'The Ma|';
+    }
+    38% {
+        content: 'The Mat|';
+    }
+    39% {
+        content: 'The Matr|';
+    }
+    40% {
+        content: 'The Matrix|';
+    }
+    41% {
+        content: 'The Matrix |';
+    }
+    42% {
+        content: 'The Matrix h|';
+    }
+    43% {
+        content: 'The Matrix ha|';
+    }
+    44% {
+        content: 'The Matrix has|';
+    }
+    45% {
+        content: 'The Matrix has |';
+    }
+    46% {
+        content: 'The Matrix has y|';
+    }
+    47% {
+        content: 'The Matrix has you|';
+    }
+    48% {
+        content: 'The Matrix has you';
+    }
+    49% {
+        content: 'The Matrix has you|';
+    }
+    50% {
+        content: 'The Matrix has you';
+    }
+    51% {
+        content: '|';
+    }
+    52% {
+        content: '';
+    }
+    53% {
+        content: '|';
+    }
+    54% {
+        content: 'F|';
+    }
+    55% {
+        content: 'Fa|';
+    }
+    56% {
+        content: 'Fal|';
+    }
+    57% {
+        content: 'Fall|';
+    }
+    58% {
+        content: 'Fallow|';
+    }
+    59% {
+        content: 'Fallow |';
+    }
+    60% {
+        content: 'Fallow t|';
+    }
+    61% {
+        content: 'Fallow th|';
+    }
+    62% {
+        content: 'Fallow the|';
+    }
+    63% {
+        content: 'Fallow the w|';
+    }
+    64% {
+        content: 'Fallow the wh|';
+    }
+    65% {
+        content: 'Fallow the whi|';
+    }
+    66% {
+        content: 'Fallow the whit|';
+    }
+    67% {
+        content: 'Fallow the white|';
+    }
+    68% {
+        content: 'Fallow the white |';
+    }
+    69% {
+        content: 'Fallow the white R|';
+    }
+    70% {
+        content: 'Fallow the white Ra|';
+    }
+    71% {
+        content: 'Fallow the white Rab|';
+    }
+    72% {
+        content: 'Fallow the white Rabb|';
+    }
+    73% {
+        content: 'Fallow the white Rabbi|';
+    }
+    74% {
+        content: 'Fallow the white Rabbit|';
+    }
+    75% {
+        content: 'Fallow the white Rabbit';
+    }
+    76% {
+        content: 'Fallow the white Rabbit|';
+    }
+    77% {
+        content: 'Fallow the white Rabbit';
+    }
+    78% {
+        content: 'Fallow the white Rabbit|';
+    }
+    79% {
+        content: 'Fallow the white Rabbit';
+    }
+    80% {
+        content: 'Fallow the white Rabbit|';
+    }
+    81% {
+        content: 'Fallow the white Rabbit';
+    }
+    82% {
+        content: 'Fallow the white Rabbit|';
+    }
+    83% {
+        content: 'Fallow the white Rabbit';
+    }
+    84% {
+        content: 'Fallow the white Rabbit|';
+    }
+    85% {
+        content: 'Fallow the white Rabbit';
+    }
+    86% {
+        content: 'Fallow the white Rabbit|';
+    }
+    87% {
+        content: 'Fallow the white Rabbit';
+    }
+    88% {
+        content: 'Fallow the white Rabbit|';
+    }
+    89% {
+        content: 'Fallow the white Rabbit';
+    }
+    90% {
+        content: 'Knock, knock, Neo'
+    }
+    91% {
+        content: 'Knock, knock, Neo|'
+    }
+    92% {
+        content: 'Knock, knock, Neo'
+    }
+    93% {
+        content: 'Knock, knock, Neo|'
+    }
+    94% {
+        content: 'Knock, knock, Neo'
+    }
+    95% {
+        content: '|'
+    }
+    96% {
+        content: ''
+    }
+    97% {
+        content: '|'
+    }
+    98% {
+        content: ''
+    }
+    99% {
+        content: '|'
+    }
+    100% {
+        content: ''
+    }
+}
